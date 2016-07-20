@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DartChallenge", "DartChallenge\DartChallenge.csproj", "{DCFE5C31-5F4F-4F67-BA69-FF682C7AA85F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{9C96F0F1-86E9-4ABE-BD15-67EE7EE3961B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{C8DC84B5-CDDC-4EBE-AC8E-C551E69669B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{359DA37F-F2B2-4CE2-A4A3-ED0353190E3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCFE5C31-5F4F-4F67-BA69-FF682C7AA85F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCFE5C31-5F4F-4F67-BA69-FF682C7AA85F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCFE5C31-5F4F-4F67-BA69-FF682C7AA85F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCFE5C31-5F4F-4F67-BA69-FF682C7AA85F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C8DC84B5-CDDC-4EBE-AC8E-C551E69669B3} = {9C96F0F1-86E9-4ABE-BD15-67EE7EE3961B}
+		{359DA37F-F2B2-4CE2-A4A3-ED0353190E3C} = {9C96F0F1-86E9-4ABE-BD15-67EE7EE3961B}
+	EndGlobalSection
+EndGlobal
