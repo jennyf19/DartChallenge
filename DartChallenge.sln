@@ -8,8 +8,18 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{9C96F0F1-86E9-4ABE-BD15-67EE7EE3961B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{C8DC84B5-CDDC-4EBE-AC8E-C551E69669B3}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\ConfigureWebServer.ps1 = PublishScripts\Scripts\ConfigureWebServer.ps1
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{359DA37F-F2B2-4CE2-A4A3-ED0353190E3C}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\DartChallenge.json = PublishScripts\Templates\DartChallenge.json
+		PublishScripts\Templates\DartChallenge.param.dev.json = PublishScripts\Templates\DartChallenge.param.dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Darts", "Darts\Darts.csproj", "{A9E8FE68-67CC-4842-9C1C-A7E9E1657262}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +31,10 @@ Global
 		{DCFE5C31-5F4F-4F67-BA69-FF682C7AA85F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCFE5C31-5F4F-4F67-BA69-FF682C7AA85F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCFE5C31-5F4F-4F67-BA69-FF682C7AA85F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9E8FE68-67CC-4842-9C1C-A7E9E1657262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E8FE68-67CC-4842-9C1C-A7E9E1657262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E8FE68-67CC-4842-9C1C-A7E9E1657262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E8FE68-67CC-4842-9C1C-A7E9E1657262}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
